@@ -1,0 +1,14 @@
+[
+  {
+    "name": "article-id",
+    "path": "/article/:id?",
+    "component": "C:\\\\xampp\\\\htdocs\\\\blog-strapi\\\\frontend\\\\pages\\\\article\\\\_id.vue",
+    "chunkName": "pages/article/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\xampp\\\\htdocs\\\\blog-strapi\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
