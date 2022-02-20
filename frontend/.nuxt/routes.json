@@ -2,13 +2,22 @@
   {
     "name": "article-id",
     "path": "/article/:id?",
-    "component": "C:\\\\xampp\\\\htdocs\\\\blog-strapi\\\\frontend\\\\pages\\\\article\\\\_id.vue",
-    "chunkName": "pages/article/_id"
+    "component": "C:\\\\xampp\\\\htdocs\\\\nuxt-strapi-blog\\\\frontend\\\\pages\\\\article\\\\_id.vue",
+    "chunkName": "pages/article/_id",
+    "_name": "_7e9ebb74"
+  },
+  {
+    "name": "category-id",
+    "path": "/category/:id?",
+    "component": "C:\\\\xampp\\\\htdocs\\\\nuxt-strapi-blog\\\\frontend\\\\pages\\\\category\\\\_id.vue",
+    "chunkName": "pages/category/_id",
+    "_name": "_44341fbc"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\xampp\\\\htdocs\\\\blog-strapi\\\\frontend\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\xampp\\\\htdocs\\\\nuxt-strapi-blog\\\\frontend\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_b0b9a4dc"
   }
 ]

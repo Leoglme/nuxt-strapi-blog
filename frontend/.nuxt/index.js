@@ -12,8 +12,9 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_e457c086 from 'nuxt_plugin_plugin_e457c086' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_apollomodule_40ccf32c from 'nuxt_plugin_apollomodule_40ccf32c' // Source: .\\apollo-module.js (mode: 'all')
+import nuxt_plugin_plugin_33487261 from 'nuxt_plugin_plugin_33487261' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_markdownit_d8a7260c from 'nuxt_plugin_markdownit_d8a7260c' // Source: .\\markdownit.js (mode: 'all')
+import nuxt_plugin_apollomodule_e3079060 from 'nuxt_plugin_apollomodule_e3079060' // Source: .\\apollo-module.js (mode: 'all')
 import nuxt_plugin_uikit_47fa8cbe from 'nuxt_plugin_uikit_47fa8cbe' // Source: ..\\plugins\\uikit.ts (mode: 'client')
 
 // Component: <ClientOnly>
@@ -178,12 +179,16 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_e457c086 === 'function') {
-    await nuxt_plugin_plugin_e457c086(app.context, inject)
+  if (typeof nuxt_plugin_plugin_33487261 === 'function') {
+    await nuxt_plugin_plugin_33487261(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_apollomodule_40ccf32c === 'function') {
-    await nuxt_plugin_apollomodule_40ccf32c(app.context, inject)
+  if (typeof nuxt_plugin_markdownit_d8a7260c === 'function') {
+    await nuxt_plugin_markdownit_d8a7260c(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_apollomodule_e3079060 === 'function') {
+    await nuxt_plugin_apollomodule_e3079060(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_uikit_47fa8cbe === 'function') {

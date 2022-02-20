@@ -1,16 +1,10 @@
 <template>
-  <div>
-
-    <div class="uk-section">
+  <div class="uk-section">
       <div class="uk-container uk-container-large">
         <h1>Strapi blog</h1>
-
         <Articles :articles="articles.data"></Articles>
-
       </div>
     </div>
-
-  </div>
 </template>
 
 <script>

@@ -16,7 +16,7 @@
       <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
            <li v-for="category in categories.data">
-            <router-link :to="category.id" tag="a">
+            <router-link :to="`/category/${category.id}`" tag="a">
               {{ category.attributes.name }}
             </router-link>
           </li>
@@ -35,7 +35,7 @@
             <div class="uk-width-1-2@s">
               <ul class="uk-nav-primary uk-nav-parent-icon" uk-nav>
                  <li v-for="category in categories.data">
-                  <router-link class="uk-modal-close" :to="category.id" tag="a">
+                  <router-link class="uk-modal-close" :to="`/category/${category.id}`" tag="a">
                     {{ category.attributes.name }}
                   </router-link>
                 </li>
